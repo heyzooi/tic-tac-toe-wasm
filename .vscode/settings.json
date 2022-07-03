@@ -1,0 +1,6 @@
+{
+    "css.lint.unknownAtRules": "error",
+    "css.customData": [
+        "./.vscode/css-tailwind.json"
+    ]
+}

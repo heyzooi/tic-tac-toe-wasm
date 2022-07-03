@@ -1,0 +1,38 @@
+body {
+    @apply m-0;
+}
+
+.xy-center {
+    @apply flex justify-center items-center
+}
+
+.container {
+    @apply flex flex-col xy-center w-screen h-screen;
+    min-width: 600px;
+    min-height: 600px;
+}
+
+.inner-container {
+    @apply flex flex-row flex-wrap;
+    width: 602px;
+    height: 602px;
+}
+
+.cell {
+    @apply xy-center border-solid border-0;
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+}
+
+.cell-center {
+    @apply border;
+}
+
+.cell-x {
+    @apply border-x;
+}
+
+.cell-y {
+    @apply border-y;
+}
